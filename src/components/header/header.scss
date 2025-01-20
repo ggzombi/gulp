@@ -1,0 +1,27 @@
+.header {
+  border-bottom: 1px solid $grayLine;
+  .h2 {
+    color: $black;
+  }
+}
+
+.header__wrap {
+  display: flex;
+  padding-top: 38px;
+  padding-bottom: 39px;
+}
+
+.header__middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.header__text {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+}
